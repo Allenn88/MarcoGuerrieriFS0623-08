@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+}
+header{
+    background-color: #222F3F;
+}
+.logo{
+    padding: 1rem;
+    
+}
+.topbar {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:#364759; 
+  color: whitesmoke;
+  text-decoration:none;    
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: small;
+  padding-left: 0.5rem;
+
+}
+.topbar strong{
+    padding: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+article{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.sottotitolo{
+    background-color: #F56600;
+    text-align: center;
+    color: whitesmoke;
+}
+.sottotitolo p{
+    font-size: smaller;
+    padding: 0.2rem;
+}
+.sfondotitolo{
+  background-image: url(../images/bg-image.png);
+  text-align: center;
+  color: whitesmoke;
+  background-position: top;
+  background-size: 85%;
+  background-repeat: repeat;
+}
+.sfondotitolo p{
+    padding-bottom: 50px;
+}
+h1{
+    padding-top: 50px;
+
+}
+.sequenza{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.sequenza h2 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: large ;
+    margin-bottom: -15px;
+}
+.sequenza a{
+    font-size: smaller;
+    text-decoration: none;
+    color:#357785 ;
+    padding-left: 20px;
+}
+.immagini{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.immagini img{
+    border: #364759;
+    border-radius: 5%;
+    box-shadow: 3px 6px 1px 1px #E2E3E5;
+    width: 300px;
+    height: 250px;
+    background-size: 100%;
+}
+.tavolo{
+    padding-top: 50px;
+    background-color: #E9EDEE;
+}
+.tavolo img{
+    width: 1300px;
+    height: auto;
+}
+.tavolo h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.navigazionefoot{
+    background-color:#364759;
+    text-align: center;
+    padding: 15px;
+}
+.navigazionefoot a{
+    color: whitesmoke;
+    font-size: large;
+}
+.logofoot{
+    background-color: #222F3F;
+    text-align: center;
+    padding: 25px;
+}
